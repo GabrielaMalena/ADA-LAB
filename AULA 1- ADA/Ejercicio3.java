@@ -1,5 +1,9 @@
 package AULA1;
 
+//Ejercicio 3
+//El arreglo incluye n numeros
+// los separa en pares e impares
+
 import java.util.Scanner;
 import java.util.ArrayList;
 
@@ -27,3 +31,18 @@ class Ejercicio3 {
 
 	}
 }
+
+
+
+/* Entrada: 
+Ingrese la longitud de su arreglo: 
+3
+Ingrese su numero:1
+2
+Ingrese su numero:2
+55
+Ingrese su numero:3
+11
+Numeros Pares: 2 
+
+Numeros Impares: 55 11 */
