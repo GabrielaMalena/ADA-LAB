@@ -1,6 +1,10 @@
 
 import java.util.*;
-public class Ejercicio3 {  
+public class Ejercicio3 {
+	//Insertion-Sort
+	//En este ejercicio ingresamos nuestro arreglo
+	//Ordena nuestro arreglo de manera ascendente
+	
 	public static void main(String[] args) {
 		int[] numeros = {0,6,2,4,1,9};  //declaramos nuestro array
 		System.out.println("El arreglo ingresado es:" + Arrays.toString(numeros));
@@ -13,8 +17,12 @@ public class Ejercicio3 {
 			}  
 			numeros[j+1] = temporal;  
 		}  
-		System.out.println("El arreglo ordenado es: :" + Arrays.toString(numeros));
+		System.out.println("El arreglo ordenado Insertion es: :" + Arrays.toString(numeros));
 	}  
 }  
 
+
+//Entrada: 
+//El arreglo ingresado es:[0, 6, 2, 4, 1, 9, 12]
+//El arreglo ordenado Insertion es: :[0, 1, 2, 4, 6, 9, 12]
 
