@@ -1,13 +1,13 @@
 #Ejercicio 4- hallar el tiempo de ejecucion
 #del insertion sort realizado en python
-# utilizo numeros random van de 10,100,1000
+# utilizo numeros random van de 10,100,1000, 20 000...
 
 from random import randint
 from time import time
 
 arreglo= []
-for i in range(0,10):
-    arreglo.append (randint(0,100))
+for i in range(0,1000):
+    arreglo.append (randint(0,100000))
 
 #print(arreglo)
 
