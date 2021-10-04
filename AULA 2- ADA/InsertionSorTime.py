@@ -23,3 +23,7 @@ for i in range(1,len(arreglo)) :
 tiempo_final = time()
 #print(arreglo)
 print("El tiempo de ejecucion es : "+str(tiempo_final-tiempo_inicial))
+
+
+#SALIDA: 
+#El tiempo de ejecucion es : 0.11929059028625488
