@@ -1,4 +1,7 @@
 package AULA1;
+//Ejercicio- 5
+//Colocamos un marco(*)a un texto
+
 import java.util.Scanner;
 
 public class Ejercicio5 {
@@ -25,3 +28,12 @@ public class Ejercicio5 {
 	}
 }
 
+
+/* CASO PRUEBA:
+Ingrese lado de su figura *: 5
+
+*****
+*   *
+*   *
+*   *
+*****        */

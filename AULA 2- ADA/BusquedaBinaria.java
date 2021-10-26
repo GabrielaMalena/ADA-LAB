@@ -1,4 +1,10 @@
+
 package AULA3;
+
+//En este ejercicio realizamos la Busqueda Binaria
+// USANDO TIEMPO DE EJECUCUION
+//Usamos nanoTime, en el pdf adjunto grafica
+
 
 public class BusquedaBinaria {
 	static long tiempoInicio;
@@ -6,7 +12,7 @@ public class BusquedaBinaria {
 	
 	public static int[] LlenarArreglo() {
 		tiempoInicio= System.nanoTime();
-		int arreglo[]= new int[10];
+		int arreglo[]= new int[10]; // indicamos nueswtra cantidad de numeros -10, 12 etc
 		for (int i=0; i<arreglo.length; i++) {
 			arreglo[i]= (int)(Math.random()*100);
 		}
