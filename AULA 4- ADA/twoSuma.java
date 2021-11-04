@@ -1,7 +1,7 @@
 iimport java.util.*;
 import java.util.Arrays;
 /*
- * TIEMPO DE COMPLEJIDAD: O(nlog(n))
+ * TIEMPO DE COMPLEJIDAD: O(log(n))
  * En este ejercicio se realiza la suma de dos num=10
  * en este caso ingreso mi array con diferentes num
  * elige dos numeros que me sumen 10
@@ -29,6 +29,14 @@ public class twoSuma {
      }
 	
 	/*
+	 * Analisis de Complejidad:
+	 * Para este caso tenemos un while como bucle externo O(1)
+	 * Dentro de el tenemos sentencias if-else
+	 * Este algoritmos nos indica que el tiempo es menor que el tamaño 
+	 * Este algoritmo busca elementos en un array, suma 2 numeros, 
+	 * luego suma2 y busca nuevamente hasta encontrar el elemento, 
+	 * es un algoritmo recursivo: ----> O(log n)
+	 *  
 	 * Entrada y Salida:
 	 * En este caso ya tenemos nuestro arreglo {1,5,3,8,2}
 	 * Salida nos muestra los indices de los numeros que suman 10
