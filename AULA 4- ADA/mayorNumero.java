@@ -27,6 +27,14 @@ public class mayorNumero {
 	 }
 
 	/* 
+	 * Analisis de Complejidad:
+	 * Para esta complejidad ya que vamos a recorrer desde 0 hasta n
+	 * de uno en uno (por el primer for)
+	 * el primer bucle for anidado, por lo cual el bucle interno
+	 * se ejecuta la cantidad de veces (n) por cada iteracion del bucle for
+	 * obtenemos el total de iteraciones realizadas del bucle anidado
+	 * Obtenemos = n*n= n^2= =O(n^2)
+	 * 
 	 * Entrada y Salida: 
 	 * Ingrese cantidad de elementos:5
 	 * Ingrese sus elementos: 12
