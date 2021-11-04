@@ -1,5 +1,5 @@
 /*
- * TIEMPO DE COMPLEJIDAD: 
+ * TIEMPO DE COMPLEJIDAD:  O(n^2)
  * En este ejercico aguja en el pajar
  * nosotros ingresamos una cadena de string,
  * apartir de ella indicamos la parte que queremos extraer
@@ -41,6 +41,16 @@ public class findNeedle {
 	   System.out.print("Total palabras encontradas:"+totalNed);
        }
 	/*
+	 * Explicacion del analisis de complejidad:
+	 * Primero tenemos un for el cual presenta una secuencia de if-else
+	 * la secuencia if-else tendria una complejidad de n-2 que daria= O(n)
+	 * en cada caso
+	 * Aparte el for tendria su complejidad de O(1) pero por los if-else
+	 * ya que va recorrer desde 0 hasta n
+	 * de uno en uno por eso el tiempo es Tiempo: O(n^2)
+	 * un bucle for anidado(if-else), por lo cual el bucle interno recorre n veces
+	 * por cada iteracion ------ n*n= n^2= =O(n^2)
+	 * 
 	 * Salida:
 	 * 1 : aguja encontrada en el indice :2
 	 * 2 : aguja encontrada en el indice :8
