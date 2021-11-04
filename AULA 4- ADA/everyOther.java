@@ -32,6 +32,14 @@ public class everyOther {
 
 
 	/*
+	 * En este ejercicio su tiempo de complejidad seria
+	 * Tiempo: O(n^2), ya que vamos a recorrer desde 0 hasta n
+	 * de uno en uno 
+	 * el primer bucle for anidado, por lo cual el bucle interno
+	 * se ejecuta "n" veces por cada iteracion del bucle externo for
+	 * entonces el total de iteraciones realizadas del bucle anidado
+	 * sera ---- TOTAL = n*n= n^2= =O(n^2)
+	 * 
 	 * Entrada: list = {1,2,3};
 	 * Salida: 1 
                2 
