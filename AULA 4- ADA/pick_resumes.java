@@ -43,7 +43,9 @@ public class pick_resumes {
 	 * el bucle while interno ejecuta uno más que el bucle externo
 	 * tan interno para bucle num de iteraciones = logn + 1.
 	 * por n veces las sentencias if-else
-	 * 
+	 * Entonces obtenemos T(n) = log (n ) 
+	 * tenemos un bucle interno -la instruccion while nos da ----> log (n)
+	 * que se ejecuta O(log n) veces 
 	 * ENTRADA: "gabrielamalena"
 	 * SALIDA: m
 	 */
