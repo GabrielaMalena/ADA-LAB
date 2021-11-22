@@ -18,7 +18,7 @@ public class dfs_new {
 
 		mostrar(lista);
 		System.out.println("_____________");
-		dfs(lista, 3, 3); // nosotros indicamos nuestras coordenadas
+		dfs(lista, 5, 5); // nosotros indicamos nuestras coordenadas
 		mostrar(lista);
 
 	}
@@ -85,8 +85,8 @@ public class dfs_new {
 	 *           1 0 0 0 0 1 
                  1 0 0 0 0 1 
                  1 0 0 0 0 1 
-                 1 0 0 0 1 6 
-                 1 1 1 1 6 6 
+                 1 0 0 0 1 8 
+                 1 1 1 1 8 8 
 	 * 
 	 * 
 	 * Entrada:   1 1 1 1 1 1 
@@ -105,5 +105,7 @@ public class dfs_new {
                  1 1 1 1 0 0 
 	 */
 }
+
+
 
 
